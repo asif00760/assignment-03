@@ -24,6 +24,10 @@
         .font-adlam {
             font-family: "ADLaM Display", sans-serif;
         }
+
+        .bgi {
+            background-image: url(c1-assets/cat-big.png);
+        }
     </style>
     <script>
         tailwind.config = {
@@ -43,7 +47,8 @@
 <body>
     <!-- pet header section -->
     <header>
-        <div class="navbar bg-[#FFF9F4] font-sora mb-24">
+        <!-- navbar section -->
+        <div class="navbar bg-[#FFF9F4] font-sora mb-20">
             <div class="navbar-start">
                 <div class="dropdown">
                     <div tabindex="0" role="button" class="btn btn-ghost">
@@ -68,16 +73,33 @@
             <div class="navbar-end gap-4 invisible sm:visible">
                 <i class="fa-regular fa-bell"></i>
                 <i class="fa-solid fa-magnifying-glass"></i>
-                <a class="btn bg-none border border-yellow-300">Login</a>
+                <a class="btn btn-outline border-yellow-300 text-black">Login</a>
                 <a class="btn bg-yellow-300">Register</a>
             </div>
             <div class="">
                 <i class="fa-solid fa-bars visible sm:invisible"></i>
             </div>
         </div>
+        <!-- second header-->
+        <div class="items-center justify-center">
+            <div class="md:mx-20">
+                <div class="space-y-8 bg-[url(c1-assets/cat-big.png)] w-full h-screen image-full md:w-full md:h-screen  bg-no-repeat">
+                    <h1 class="font-adlam text-3xl md:text-6xl font-normal ">Pamper Your Pet,<br> Because They Deserve
+                        <br> the Best</h1>
+                    <p class="font-sora md:text-xl text-base font-normal text-[#111111]">Discover a world of treats,
+                        toys, and essentials handpicked for <br> your furry friends. Shop now and make
+                        tails wag with joy!
+                    </p>
+                    <button class="btn bg-yellow-300" type="button">Find a pet</button>
+                    <!-- <div class="">
+                    <img class="bg-none"  src="c1-assets/cat-big.png" alt="" srcset="">
+                </div> -->
+                </div>
+            </div>
+        </div>
     </header>
-
     <main>
+        <section></section>
 
     </main>
 
